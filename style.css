@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-image: url(assets/BG1.png),url(assets/BG2.png), url(assets/BG3.png);
+  background-repeat: no-repeat;
+  background-position: top, center, bottom;
+  background-size: contain;
+  width: 100%;
+  background-color: #E5190B;
+}
+
+#old{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main{
+    height: 1117px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.cont {
+    display: flex;
+    margin-top: 200px;
+    height: 200px;
+    width: 1600px;
+}
+
+.para {
+    margin: 20px;
+}
+.para.left {
+    width: 980px;
+    height: 160px;
+}
+#para1 {
+    font-family: Outfit;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: white;
+}
+#para1 span {
+    font-family: Plus Jakarta Sans;
+font-size: 70px;
+font-style: italic;
+font-weight: 800;
+line-height: 80px;
+letter-spacing: -0.03em;
+text-align: left;
+color: yellow;
+}
+.para.right {
+    width: 545px;
+    height: 90px;
+    font-family: Inter;
+font-size: 28px;
+font-weight: 600;
+line-height: 30px;
+text-align: left;
+color: white;
+}
+
+#home-down {
+  display: flex;
+  width: 95%;
+  flex-direction: row;
+}
+#inductId {
+    width: 211.87px;
+    height: 75px;
+    margin-left: 168.92px;
+    margin-top: 95px;
+}
+
+#bars{
+    transform: translate(-100px,100px);
+}
+
+.box {
+  display: flex;
+  height: 558px;
+  background-color: rgb(184, 6, 6);
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+}
+.small-box1 {
+width: 89.95px;
+height: 130px;
+background-color: #243A5A;
+}
+.small-box2 {
+    width: 89.95px;
+    height: 70px;
+    margin-left: auto;
+    margin-top: auto;
+    background-color: #7CC61D;
+}
+.small-box3 {
+    width: 89.95px;
+    height: 130px;
+    margin-left: auto;
+    margin-top: auto;
+    background-color: #243A5A;
+}
+.info1 {
+    
+    width: 400px;
+    height: 330px;
+    margin-top: 320px;
+    margin-right: 100px;
+}
+.main {
+font-family: Public Sans;
+font-size: 60px;
+font-weight: 800;
+line-height: 60px;
+text-align: left;
+color: white;
+}
+.vision {
+    font-family: Public Sans;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: left;
+    color: #0FBE21;
+}
+.fund {
+    font-family: Public Sans;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: left;
+    color: white;
+}
+.info2 {
+    
+    width: 500px;
+    height: 230px;
+    margin-top: 150px;
+    margin-right: 100px;
+}
+.info3 {
+    
+    width: 400px;
+    height: 230px;
+    margin-top: 350px;
+}
+.box p a {
+    text-decoration: none;
+    color: white;
+    font-family: Inter;
+font-size: 32px;
+font-weight: 400;
+text-align: left;
+}
+.box p i{
+    font-size: 30px;
+    color: #0FBE21
+}
+
+#box2 {
+  background-image: url(assets/Rectangle\ 2420.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+
+nav .fa-solid {
+    display: block;
+    position: fixed;
+    color: white;
+    font-size: 20px;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    z-index: 999; 
+}
+
+nav ul {
+    background: white; 
+    position: fixed;
+    top: 80px;
+    right: -500px; 
+    width: 363px;
+    height: 411px; 
+    padding-top: 50px;
+    z-index: 998; 
+    transition: right 0.5s;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 24px;
+    margin: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black; 
+     
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: -0.01em;
+text-align: left;
+
+}
+
+nav ul .fa-solid.fa-xmark {
+    position: absolute;
+    color: black; 
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+}
+
+nav ul .fa-solid {
+    color: white; 
+}
+
+
